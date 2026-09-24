@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo h1 {
+    color: black;
+}
+
+.logo h1 .Taco {
+    color: #e28743;
+}
+
+.imagenlogo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.top-der {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-login {
+    display: flex;
+    gap: 8px;
+    padding: 8px 15px;
+}
+
+.f-login input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-log {
+    background-color: #293ad3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carro {
+    display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+.Libros,.Selection{
+    font-size: 1.2rem;
+    gap:5px;
+    text-align: left;
+    display: flex;
+    align-self: flex-start;
+}
+.texto-carro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.imagencarrito {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: flex;
+    align-self: flex-start
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.catbarra {
+    background-color: #dde9f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 0 auto 25px auto;
+    max-width: 1100px;
+    width: calc(75% - 5px);
+}
+
+.categoriascomida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    border-radius: 5%;
+}
+
+.img-cat,
+.imagencat {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.seccionplatillos {
+    flex: 3;
+    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.texto {
+    max-width: 50%;
+}
+
+.texto h2 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+.texto h2 span {
+    color: #333;
+}
+
+.texto p strong {
+    color: #e28743;
+}
+
+.contenedor-imagen #imagencomida {
+    width: 560px;
+    height: 450px;
+    object-fit: cover;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.recomendaciones {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.recomendaciones h3 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.imagenorden {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    border: 1.5px solid #333;
+}
+
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.botom {
+    background-color: #e28743;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card a {
+    color: #2b5b84;
+    font-size: 0.85rem;
+}
